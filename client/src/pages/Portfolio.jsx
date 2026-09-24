@@ -11,6 +11,7 @@ import Contact from "./Contact.jsx"
 export default function Portfolio(){
     return (
         <div className="portfolio">
+            <h1>Hello! World!</h1>
             <Navbar />
             <Hero />
             <About />
@@ -19,7 +20,6 @@ export default function Portfolio(){
             <Experiences />
             <Educations />
             <Contact />
-
         </div>
     )
     
